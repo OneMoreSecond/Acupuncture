@@ -29,5 +29,4 @@ You may specify a topic by putting context after the command, e.g. `/acupuncture
 
 ## Persistency
 
-By default, Acupuncture will store the conversation history in `$HOME/.acupuncture` directory.
-You can change the path by setting the `ACUPUNCTURE_HOME` environment variable.
+Acupuncture will store the conversation history in `$HOME/.acupuncture` directory.
