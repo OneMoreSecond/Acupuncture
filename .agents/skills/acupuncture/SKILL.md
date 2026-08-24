@@ -58,12 +58,19 @@ For built-in topics, you may start with given intermediate questions.
 Create a new conversation section in history file.
 Brief the start point at the beginning of the section.
 
+Welcome the user to start conversation, with warm words.
+Recall previous progress briefly.
+
 Then start looping:
 
 - Determine the next question based on previous thinking, and save it to history file. Review topic state before proposing question, to avoid drafting away due to recent conversation.
 - Ask the user with ask-question tool, set a timeout to break the loop and continue finalizing when the user is not responsive.
 - Save answer to history file
 - If the question is a proposal and the user makes an action commitment, break the loop.
+
+When giving choices, mark each choice with letter, to make them easy to reference.
+
+After user makes an action commitment, encourage and bless them with warm words.
 
 ### 5. Summarize state in history
 
