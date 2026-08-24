@@ -3,4 +3,4 @@ interface:
   short_description: Interactively dig into user's personal pain points and try to eliminate the root cause"
   default_prompt: "Use $acupuncture to interview the user on pain points interactively."
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

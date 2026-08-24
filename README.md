@@ -23,9 +23,9 @@ cp -r ./agents/skills/acupuncture $YOUR_DESTINATION_PATH
 
 ## Usage
 
-Without additional instruction, `/acupuncture` command will start with common topics or review previous topics.
+Without additional instruction, `$acupuncture` command will start with common topics or review previous topics.
 
-You may specify a topic by putting context after the command, e.g. `/acupuncture Let's talk about stress`.
+You may specify a topic by putting context after the command, e.g. `$acupuncture Let's talk about stress`.
 
 ## Persistency
 

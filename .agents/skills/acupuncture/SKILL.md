@@ -9,7 +9,7 @@ user-invocable: true
 
 ## When To Use
 
-Only use this skill when the user invokes `/acupuncture` explicitly.
+Only use this skill when the user mention `$acupuncture` explicitly.
 
 ## What This Skill Produces
 
@@ -60,7 +60,7 @@ Brief the start point at the beginning of the section.
 
 Then start looping:
 
-- Determine the next question based on previous thinking, and save it to history file.
+- Determine the next question based on previous thinking, and save it to history file. Review topic state before proposing question, to avoid drafting away due to recent conversation.
 - Ask the user with ask-question tool, set a timeout to break the loop and continue finalizing when the user is not responsive.
 - Save answer to history file
 - If the question is a proposal and the user makes an action commitment, break the loop.
